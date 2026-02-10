@@ -1,0 +1,69 @@
+body {
+  background: white;
+  margin: 65px 0px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 65px;
+  margin: 0px;
+  background: gray;
+  z-index: 999;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+img {
+  border-radius: 40px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 300px;
+}
+
+.hi {
+  
+}
+
+.hi-content {
+  display: flex;
+  gap: 40px;
+}
+
+.hi-message {
+  width: 600px;
+}
+
+.skill-box-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-box {
+  background: gray;
+  height: 450px;
+  width: 350px;
+  padding: 10px;
+}
+
+.projects-box-container {
+
+}
+
+.projects-box {
+  display: flex;
+  width: 100%;
+  background: gray;
+  height: 400px;
+  padding: 10px;
+}
